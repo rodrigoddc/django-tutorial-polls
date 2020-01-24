@@ -21,7 +21,7 @@ from polls_tutorial.settings import DEBUG
 from apps.polls import urls as polls_urls
 
 urlpatterns = [
-    path('', include(polls_urls)),
+    path('polls/', include(polls_urls)),
     path('admin/', admin.site.urls),
 ]
 
