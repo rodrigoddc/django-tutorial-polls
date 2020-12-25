@@ -4,5 +4,5 @@ Django==3.0.7
 polls==0.1
 psycopg2==2.8.5
 python-decouple==3.3
-pytz==2020.1
+pytz==2020.5
 sqlparse==0.3.1
